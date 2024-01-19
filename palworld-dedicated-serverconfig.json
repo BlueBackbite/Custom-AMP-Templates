@@ -13,7 +13,7 @@
         "Placeholder": "8211",
         "Suffix": "",
         "Hidden": false,
-        "SkipIfEmpty": false,
+        "SkipIfEmpty": true,
         "EnumValues": {}
     },
     {
@@ -30,7 +30,7 @@
         "Placeholder": "32",
         "Suffix": "",
         "Hidden": false,
-        "SkipIfEmpty": false,
+        "SkipIfEmpty": true,
         "EnumValues": {}
     },
     {
@@ -46,7 +46,7 @@
         "DefaultValue": "",
         "Placeholder": "",
         "Suffix": "",
-        "Hidden": false,
+        "Hidden": true,
         "SkipIfEmpty": false,
         "EnumValues": {}
     }
