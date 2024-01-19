@@ -1,0 +1,53 @@
+[
+    {
+        "DisplayName": "Server Port",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "server,port",
+        "FieldName": "port=",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "port=",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "8211",
+        "Placeholder": "8211",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Server Settings",
+        "Description": "Sets the max amount of players for this server",
+        "Keywords": "max,players",
+        "FieldName": "players=",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "players=",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "32",
+        "Placeholder": "32",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Use Multi-Threads",
+        "Category": "Server Settings",
+        "Description": "Enable performance settings for Multi-threaded CPUs",
+        "Keywords": "use,multi-threads",
+        "FieldName": "-useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "-useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "Placeholder": "",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    }
+]
